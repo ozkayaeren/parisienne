@@ -11,7 +11,28 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <style>
+    <style>      .product-price-wrap {
+      word-wrap: break-word; /* Kelime taşmasını kırar */
+      word-break: break-word; /* Gerekirse kelimeleri alt satıra taşır */
+      text-align: center; /* Metni ortalar */
+      overflow-wrap: break-word; /* Alternatif kelime sarmalama desteği */
+    }
+    
+    .product-price {
+      margin: 0 auto; /* Ortalar */
+      display: block; /* Satır içinde taşmayı engeller */
+      max-width: 100%; /* Genişliği %100 ile sınırlar */
+      font-size: 14px; /* Mobil için daha okunabilir yazı boyutu */
+      line-height: 1.5; /* Satır yüksekliğini ayarlar */
+      word-spacing: 0.1em; /* Harf aralığına biraz boşluk ekler */
+    }
+    @media (max-width: 768px) {
+      .product-price {
+        font-size: 12px; /* Küçük ekranlar için yazı boyutunu düşür */
+        line-height: 1.4; /* Satır aralığını optimize et */
+      }
+    }
+    
       @media (max-width: 768px) {
   .services-terri {
     text-align: center; /* Yazıları ortalar */

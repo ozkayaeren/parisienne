@@ -14,3 +14,28 @@
 .row.row-lg .col-3 {
   padding: 5px; /* Sütunlar arasındaki boşluk */
 }
+@media (max-width: 768px) {
+  .services-terri {
+    text-align: center; /* Yazıları ortalar */
+    padding: 10px; /* İç boşluğu artırır */
+  }
+
+  .services-terri-figure img {
+    width: 100%; /* Resimleri kutuya sığdırır */
+    height: auto; /* Orantılı şekilde boyutlandırır */
+  }
+
+  .services-terri-caption h5 {
+    font-size: 14px; /* Yazı boyutunu küçültür */
+    margin-top: 10px; /* Başlık ile ikon arasına boşluk ekler */
+  }
+
+  .services-terri-caption span {
+    font-size: 24px; /* İkon boyutunu küçültür */
+  }
+
+  .col-4 {
+    width: 100%; /* Mobilde tüm kutuları dikey hizalar */
+    margin-bottom: 20px; /* Kutular arası boşluk ekler */
+  }
+}

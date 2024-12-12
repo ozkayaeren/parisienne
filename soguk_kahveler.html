@@ -46,6 +46,17 @@
         </div>
       </div>
     </div>
+    <!-- Geri tuşu işlevi -->
+    <script>
+      // Sayfa yüklendikten sonra bu fonksiyon çalışacak
+      window.addEventListener("popstate", function(event) {
+        // Geri tuşuna basıldığında index.html'e yönlendir
+        window.location.href = "index.html";
+      });
+
+      // Sayfaya state ekle
+      window.history.pushState(null, null, window.location.href);
+    </script>
     <div class="page">
       <!-- Top Banner-->
       <!-- Page Header-->

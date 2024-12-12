@@ -39,3 +39,15 @@
     margin-bottom: 20px; /* Kutular arası boşluk ekler */
   }
 }
+.product-price-wrap {
+  word-wrap: break-word; /* Satırın taşması durumunda kelimeyi böler */
+  word-break: break-word; /* Gerekirse kelimeleri alt satıra taşır */
+  text-align: center; /* Metni ortalar */
+  max-width: 100%; /* Genişliği sınırlar */
+}
+
+.product-price {
+  margin: 0 auto; /* Ortalar */
+  display: inline-block; /* Daha iyi hizalama için */
+  width: 100%; /* Konteyner genişliğine uyum sağlar */
+}

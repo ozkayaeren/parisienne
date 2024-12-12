@@ -53,6 +53,8 @@ address,dl,ol,p,ul{margin-bottom:1rem}body,caption{text-align:left}dd,label{marg
 }
 
 .product-price {
+  word-wrap: break-word; /* Satırın taşması durumunda kelimeyi böler */
+  word-break: break-word; /* Gerekirse kelimeleri alt satıra taşır */
   margin: 0 auto; /* Ortalar */
   display: inline-block; /* Daha iyi hizalama için */
   width: 100%; /* Konteyner genişliğine uyum sağlar */

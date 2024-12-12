@@ -95,7 +95,13 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><script>
+      window.onpopstate = function () {
+        // Geri düğmesine basıldığında ana sayfaya yönlendir
+        window.location.href = "index.html";
+      };
+    </script>
+    
     <!-- Geri tuşu işlevi -->
     <script>
       // Sayfa yüklendikten sonra bu fonksiyon çalışacak
